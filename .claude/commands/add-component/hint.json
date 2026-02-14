@@ -1,0 +1,28 @@
+{
+  "name": "add-component",
+  "displayName": "Add Component",
+  "description": "새로운 React 컴포넌트를 생성합니다",
+  "arguments": [
+    {
+      "name": "componentName",
+      "description": "컴포넌트 이름 (PascalCase로 입력)",
+      "required": true,
+      "example": "Button",
+      "hint": "예: Button, UserCard, NavigationBar"
+    }
+  ],
+  "examples": [
+    {
+      "input": "/add-component Button",
+      "description": "Button 컴포넌트 생성"
+    },
+    {
+      "input": "/add-component UserProfile",
+      "description": "UserProfile 컴포넌트 생성"
+    },
+    {
+      "input": "/add-component Modal",
+      "description": "Modal 컴포넌트 생성"
+    }
+  ]
+}
